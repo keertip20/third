@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="regtask.css">
+</head>
+
+<body><form>
+
+    <h3>Register here</h3>
+
+    <h2>USER REGISTRATION</h2>
+    <small>Field marked <span>*</span> are requred.</small>
+
+    <div>
+        <label for="Email" >Email<span>*</span></label>
+        <input id="Email" type="text" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required><br>
+
+        <label for="password" >Password<span>*</span></label>
+        <input id="password" type="password" name="password" required><br>
+
+        <label for="Retype pasword" >Retype Password<span>*</span></label>
+        <input id="Retype pasword" type="password" name="Retype pasword" required><br>
+
+        <label for="fname" >First Name<span>*</span></label>
+        <input id="fname" type="text" name="fname" minlength="5" maxlength="30" required><br>
+
+        <label for="lname" >Last Nmae<span>*</span></label>
+        <input id="lname" type="text" name="lname" required><br>
+
+        <label for="phone" >Phone Number<span>*</span></label>
+        <input id="phone" type="phone" name="phone" pattern="[0-9]{10}" minlength="9" maxlength="10" required><br>
+
+        <label for="address" >Address<span>*</span></label>
+        <input id="address" type="address" name="address" required><br>
+        <input id="address" type="address" name="address" required><br>
+
+
+        <label for="town" >Town</label>
+        <input id="town" type="text" name="town" ><br>
+
+        <label for="region" >Region<span>*</span></label>
+        <input id="region" type="text" name="region" required><br>
+
+        <label for="Postcode" >Postcode/Zip<span>*</span></label>
+        <input id="Postcode" type="text" name="Postcode" required><br>
+
+        <label for="Country" >Country<span>*</span></label>
+        <select id="Country" name="Country" required>
+            <option value="Country" >United Kingdom</option>
+            <option value="Country">India</option>
+            <option value="Country">Canda</option>
+            <option value="Country">France</option>
+            <option value="Country">Germany</option>
+            <option value="Country">Belgium</option>
+            <option value="Country">Denmark</option>
+        </select><br>
+
+
+    </div>
+    <input type="submit" value="Registation" class="button">
+    <!-- <button type="button" class="button" >REGISTRATION</button> -->
+
+</form>
+
+</body>
+
+</html>

@@ -1,0 +1,165 @@
+html{
+    height: 100%;
+}
+
+
+body{
+    font-family:sans-serif;
+    box-sizing: border-box;
+}
+
+
+.firstline{
+display: flex;
+align-items: center;
+text-align: justify;
+border-bottom: 1px solid rgba(0, 0, 0, 0.177);
+padding: 15px 10px;
+background-color: white;
+ overflow:hidden;
+
+}
+
+div{
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.icon{
+    padding-left: 250px;
+    display: flex;
+}
+i{
+    box-sizing: border-box;
+    padding: 20px;
+}
+.phone{
+    padding-left: 100px;
+}
+.email{
+    padding-left: 100px;
+}
+.book{
+    background-color: rgb(160, 116, 28);
+    
+    
+
+}
+header h4{
+    color: white;
+    border: 0px 10px;
+    
+}
+.con{
+    margin-left: 80px;
+    text-decoration: none;
+    border: none;
+    box-sizing: border-box;
+    display: list-item;
+
+}
+
+section{
+   padding: 0;
+   background-color:  white;
+   border-bottom: 1px solid rgba(0, 0, 0, 0.177);
+}
+.secondh{
+    display: flex;
+    height: 70px;
+    text-align:center ;
+    
+}
+.secondh h1{
+    font-size: 60px;
+    padding-top: 0;
+    margin-top: 0;
+    font-family: cursive;
+    padding-left: 80px;
+
+}
+.secondh nav{
+    text-align: center;
+    width: 100%;
+    padding-top: 30px;
+    padding-left: 300px;
+
+}
+.secondh a{
+    padding: 0px 20px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+.secondh a:hover{
+    text-decoration: underline;
+    text-decoration-color:  rgb(160, 116, 28);
+}
+.serch{
+    padding-top: 10px;
+    padding-left: 350px;
+}
+main{
+    background-image: url(/Image/ho.jpg);
+    background-repeat: no-repeat;
+   background-size: cover;
+   height: 900px;
+   
+}
+main h1{
+font-size: 70px;
+font-weight: lighter;
+text-align: justify;
+ color: white;
+ text-decoration: none;
+ width: 40%;
+ padding-left: 300px;
+ padding-top: 220px;
+}
+main p{
+ color: white;
+text-align: justify;
+ padding-left: 300px;
+font-size: 20px;
+width: 40%;
+}
+main a{
+   color: white;
+ padding-left: 300px;
+text-decoration: underline 3px rgb(160, 116, 28);
+}
+.content{
+    display: flex;
+}
+.section1{
+    border-radius: 5px;
+    background-color: white;
+    padding-left: 40px;
+    padding-right: 60px;
+    margin-right: 70px;
+    margin-top: 100px;
+    width: 22%;
+  
+}
+.section1 h2{
+    text-align: center;
+    font-size: 35px;
+}
+.section1 input{
+padding: 10px;
+width: 100%;
+margin-top: 10px;
+margin-bottom: 10px;
+color: rgb(160, 116, 28);;
+border: 1px solid rgba(0, 0, 0, 0.177);
+}
+.fin{
+    padding: 10px;
+    width: 105%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.177);
+    }
+    

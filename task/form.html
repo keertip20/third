@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Forms</legend>
+            <h1>Form</h1>
+    <label for="first">First Name</label>
+    <input id="first" name="first">
+    <label for="last">Last Name</label>
+    <input id="last" name="last"><br><br>
+    <label for="phone">Phone Number</label>
+    <input id="phone" type="number" ><br><br>
+    <label for="email">Mail Id</label>
+    <input id="email" type="email" placeholder="example@gmail.com" pattern="[a-zA-Z0-9._%+-]+@[a-z0-9.-]+\.[a-zA-Z]{2,4}"  autocomplete="on">
+    <br> <br>
+
+    <label for="male" >Male</label>
+    <input id="male" name="v" type="radio">
+    <label for="female" >Female</label>
+    <input id="female" name="v" type="radio">
+<br><br>
+
+<label for="add">Address</label>
+<address>
+    <input type="text" placeholder="House No., Lane no, City">
+    <input type="text" placeholder="State,Country">
+    <input type="text" placeholder="PIN", pattern="[0-9]{6}">
+</address><br><br>
+
+<label for="edu">Select your higher education</label>
+<select id="edu" name="education">
+    <option value="B.com">B.com</option>
+    <option value="M.com">M.com</option>
+    <option value="B.tech">B.tech</option>
+    <option value="m.tech">M.tech</option>
+    <option value="B.A">B.A</option>
+    <option value="M.A">M.A</option>
+    <option value="B.Sc">B.Sc</option>
+    <option value="M.Sc">M.sc</option>
+    <option value="BBA">BBA</option>
+    <option value="MBA">MBA</option>
+    <option value="other">Other</option>
+</select>
+
+<br><br>
+
+<label for="mess">Write your comments</label><br>
+<textarea name="message" rows="10" cols="30" >
+
+</textarea><br>
+
+<input type="checkbox" id="checkbox" name="checkbox">
+<label for="checkbox">I hereby certify that above given data are true and correct to the best of my knowledge and belief.</label>
+
+<br><br>
+<div class="flex-parent jc-center">
+<input type="submit" value="submit" class="center">
+<input type="reset" value="reset" class="center">
+</div>
+</fieldset>
+
+</form>
+</body>
+</html>

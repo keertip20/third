@@ -1,0 +1,25 @@
+form{
+    background-color:aliceblue;
+    height: auto;
+    width: 1050px;
+    border: 10px solid black;
+
+}
+h1{
+    text-align: center;
+}
+.center{
+   padding: 10px;
+   background-color: deepskyblue;
+   border-radius: 20%;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+
+}
+.flex-parent {
+    display: flex;
+  }
+  
+  .jc-center {
+    justify-content: center;
+  }
